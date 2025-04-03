@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f5f3df;
+    background-image: url("/assets/imgs/foodiegoodieBckgr.png");
+    background-size: 100%;
+}
+
+.nunito {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  
+h1, h2, h3{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    
+}
+p, ul, li, footer{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+
+/*header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    background-color: #C8E594;
+    border-radius: 100px;
+    margin: 20px;
+
+}
+header .logoContainer img{
+    width:200px;
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+}
+header nav ul li {
+    justify-content: center;
+}*/
+
+header {
+    background-color: #C8E594;
+    position: relative;
+}
+
+.logoContainer img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    position: relative; 
+    z-index: 10; 
+    top: 10px;
+}
+
+nav {
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: -35px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 200px;
+    padding: 10px;
+    background-color: #f5f3df;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+nav ul li {
+    display: inline;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #d68c5d;
+    transition: 0.3s;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px; 
+    justify-content: center;
+    background-color: #f5f3df;
+    color: gray;
+    margin-top: 100px;
+}
+
+  
+.hero {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f3df;
+    background-image: url('../imgs/foodiegoodieBanner.png');
+    border: 2px solid black;
+    background-size: 96%;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 40px;
+    color: black;
+   
+}
+  
+.hero h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    
+}
+
+.hero p, .hero h1{
+    margin-left: 300px;
+}
+
+.hero-image img {
+    width: 65%;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.recetasGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.recetas {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.recetas h2{
+    text-align: center;
+    background: #E6AF8C;
+    border: 2px solid black;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.receta {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f3df;
+    border: 2px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 8px 8px 0px black; 
+}
+
+
+.receta img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; 
+}
+
+.receta h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px 15px;
+}
+
+.receta a {
+    display: block;
+    text-align: center;
+    background-color: #E6AF8C;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 12px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+    margin-top: auto;
+}
+
+.receta a:hover {
+    background-color: #d68c5d;
+}
+
+
