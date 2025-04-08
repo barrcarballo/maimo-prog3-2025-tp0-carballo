@@ -17,3 +17,12 @@ const main = async () => {
     })
 } 
 main()
+
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.querySelector('.toggle');
+    const nav = document.querySelector('nav');
+
+    toggleButton.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  });
